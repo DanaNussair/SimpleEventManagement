@@ -34,7 +34,7 @@ RSpec.describe EventManager do
     handler = proc {}
     manager.subscribe(&handler)
     manager.subscribe(&handler)
-    
+
     expect(manager.instance_variable_get(:@handlers).length).to eq(1)
   end
 

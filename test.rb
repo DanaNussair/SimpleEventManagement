@@ -18,5 +18,5 @@ event_manager.subscribe(&log_signup)
 event_manager.unsubscribe(&log_signup)
 
 # Simulate a user sign-up and broadcast the event
-new_user = { name: "John Doe", email: "john.doe@example.com" }
+new_user = { name: 'John Doe', email: 'john.doe@example.com' }
 event_manager.broadcast(new_user)
