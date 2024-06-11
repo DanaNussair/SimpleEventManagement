@@ -1,5 +1,6 @@
 require 'set'
 
+# EventManager class which manages event subscriptions and broadcasts for handlers
 class EventManager
   def initialize
     @handlers = Set.new
