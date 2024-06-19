@@ -10,7 +10,7 @@ To run the test suite:
 ```
 bundle exec rspec
 ```
-To run check for linting and code formating inconsistencies, `rubocop` is used:
+To check for linting and code formating inconsistencies, `rubocop` is used:
 ```
 # To check for errors
 rubocop
